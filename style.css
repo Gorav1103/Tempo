@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(165, 216, 231);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#overlay1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(165, 216, 231);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .1s;
+}
+
+
+#overlay1>h1{
+    position: absolute;
+    left: 50%;
+    top: 43%;
+    font-family: montserrat;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: white;
+    text-transform: uppercase;
+}
+
+button{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 27px;
+    padding: 13px 25px;
+    border-radius: 5px;
+    color: #fff;
+    outline-color: rgb(255, 94, 94);
+    font-weight: 700;
+    background-color: rgb(255, 133, 133);
+    border: none;
+    cursor: pointer;
+}
+
+#overlay2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(165, 216, 231);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+}
+
+#overlay2>h1{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    text-transform: uppercase;
+    color: white;
+}
+
+#overlay2 #time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#time #time1{
+    position: relative;
+    width: 190px;
+    height: 170px;
+    background-color: #ffd035;
+    border-radius: 15px;
+}
+
+
+#time1 h1{
+    padding: 10px;
+    font-size: 12px;
+    font-family: montserrat;
+    color: #fff;
+    opacity: .6;
+}
+
+#time1 h3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 72px;
+}
+
+
+#overlay2 #time2{
+    position: relative;
+    margin: 40px;
+    width: 190px;
+    height: 170px;
+    background-color: #ffd035;
+    border-radius: 15px;
+}
+
+#time2 h1{
+    padding: 10px;
+    font-size: 12px;
+    font-family: montserrat;
+    color: #fff;
+    opacity: .6;
+}
+#time2 h3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 72px;
+}
+
+#overlay2 #time3{
+    position: relative;
+    width: 190px;
+    height: 170px;
+    background-color: #ffd035;
+    border-radius: 15px;
+}
+
+#time3 h1{
+    padding: 10px;
+    font-size: 12px;
+    font-family: montserrat;
+    color: #fff;
+    opacity: .6;
+}
+
+#time3 h3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 72px;
+}
